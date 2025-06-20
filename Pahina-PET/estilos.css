@@ -1,0 +1,51 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    font-family: sans-serif;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    font-family: sans-serif;
+    height: 100px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    font-family: sans-serif;
+    color: white;
+}
+
+@media (max.width:700px){
+    header{
+        font-family: sans-serif;
+        flex-direction: column;
+    }
+    nav{
+        font-family: sans-serif;
+        padding: 10px 0px;
+    }
+}
